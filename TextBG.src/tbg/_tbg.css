@@ -1,0 +1,9 @@
+._tbg_main {
+	width: 100vw;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0, 0.25);
+	text-align: center;
+}

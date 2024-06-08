@@ -14,8 +14,8 @@ class TBG extends Plugin {
     }
 
     onInitialize () {
-        this.setJSServerHook("tbg/server.js");
-        this.setJSClientHook("tbg/client.js");
+        this.setJSServerHook("tbg/main-hook.js");
+        this.setJSClientHook("tbg/main-hook.js");
         this.setJSSocketHook("tbg/socket.js");
         this.addImport('tbg/_tbg.css');
         console.log('[TBG] Initialized!')

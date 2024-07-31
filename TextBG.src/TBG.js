@@ -11,6 +11,7 @@ class TBG extends Plugin {
             this.wantedText = msg;
         else
             this.setToSaveData("message", "Your message here!");
+        this.version = '1.1.0';
     }
 
     onInitialize () {
